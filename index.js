@@ -420,7 +420,7 @@ function createBot() {
   ) {
     console.log('[INFO] Bot is now in Creative Mode.');
 
-    bot.chat('yoo');
+    bot.chat('yo');
   }
 });
 
@@ -436,13 +436,13 @@ setupLeaveRejoin(bot, createBot);
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('yoo i am connected thru pranav');
+    bot.chat('connected thru pranav');
   }
 }, 3000);
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('yup broo say hello');
+    bot.chat('yup');
     console.log('[INFO] Attempted to set creative mode (requires OP)');
   }
 }, 3000);
@@ -530,7 +530,7 @@ bot.on('messagestr', (msg) => {
 
   if (message.includes('/login') || message.includes('login')) {
     authDone = true;
-    bot.chat('/login Perzuu');
+    bot.chat('/login botpranavne');
     console.log('[Auth] Login sent');
     return;
   }
