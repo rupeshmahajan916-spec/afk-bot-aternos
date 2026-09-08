@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 25565,
-    "version": "1.21.1"
+    "ip": "SubscribeSmp1.aternos.me",
+    "port": 32220,
+    "version": "1.21.11"
   },
   "position": {
     "enabled": true,
