@@ -403,13 +403,13 @@ function createBot() {
 
   // Login
   if (message.includes('login')) {
-    bot.chat('/login Perzuu');
+    bot.chat('/login botpranavne');
     console.log('[Auth] Login detected');
   }
 
   // Register
   if (message.includes('register')) {
-    bot.chat('/register Perzuu Perzuu');
+    bot.chat('/register botpranavne botpranavne');
     console.log('[Auth] Register detected');
   }
 
@@ -420,7 +420,7 @@ function createBot() {
   ) {
     console.log('[INFO] Bot is now in Creative Mode.');
 
-    bot.chat('/gamerule sendCommandFeedback false');
+    bot.chat('yoo');
   }
 });
 
@@ -436,13 +436,13 @@ setupLeaveRejoin(bot, createBot);
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('/gamerule sendCommandFeedback false');
+    bot.chat('yoo i am connected thru pranav');
   }
 }, 3000);
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('/gamemode creative');
+    bot.chat('yup broo say hello');
     console.log('[INFO] Attempted to set creative mode (requires OP)');
   }
 }, 3000);
