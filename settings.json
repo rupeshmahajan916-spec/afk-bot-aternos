@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "botpranav",
+    "username": "botpranavne",
     "password": "botpranavne",
     "type": "offline"
   },
   "server": {
-    "ip": "BroMcnuke.aternos.me",
-    "port": 42925,
+    "ip": "142.132.202.182",
+    "port": "14053",
     "version": "1.21.11"
   },
   "position": {
