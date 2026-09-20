@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "142.132.202.182",
-    "port": "14053",
+    "ip": "darkstorm.mcsh.io",
+    "port": "25565",
     "version": "1.21.11"
   },
   "position": {
