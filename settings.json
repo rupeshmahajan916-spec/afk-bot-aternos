@@ -1,8 +1,8 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "botpranav",
-    "password": "botpranav",
+    "username": "botpranavne",
+    "password": "botpranavne",
     "type": "offline"
   },
   "server": {
@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "botpranav"
+      "password": "botpranavne"
     },
     "anti-afk": {
       "enabled": true,
