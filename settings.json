@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "botpranavpvp",
+    "username": "botpranavsur",
     "password": "botpranavne",
     "type": "offline"
   },
   "server": {
-    "ip": "wraithdungeon681.mcsh.io",
-    "port": "13766",
+    "ip": "darkstrom.mcsh.io",
+    "port": "10596",
     "version": "1.21.11"
   },
   "position": {
