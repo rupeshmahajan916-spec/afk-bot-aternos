@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "darkstrom.mcsh.io",
-    "port": "10596",
+    "ip": "darkstromMc.duckdns.org",
+    "port": "25981",
     "version": "1.21.11"
   },
   "position": {
