@@ -420,7 +420,7 @@ function createBot() {
   ) {
     console.log('[INFO] Bot is now in Creative Mode.');
 
-    bot.chat('/server pvp');
+    bot.chat('yooo');
   }
 });
 
@@ -436,7 +436,7 @@ setupLeaveRejoin(bot, createBot);
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('connected thru pranav');
+    bot.chat('/server pvp');
   }
 }, 3000);
 
