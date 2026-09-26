@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "darkstorm.duckdns.org",
+    "ip": "darkstormmc.duckdns.org",
     "port": "25981",
     "version": "1.21.11"
   },
