@@ -444,14 +444,11 @@ initializeModules(bot, mcData, defaultMove);
 setupLeaveRejoin(bot, createBot);
 
 setTimeout(() => {
-  if (bot && botState.connected) {
-    bot.chat('/server pvp');
-  }
-}, 3000);
+
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('/server pvp');
+    bot.chat('yooo');
     console.log('[INFO] Attempted to set creative mode (requires OP)');
   }
 }, 3000);
