@@ -443,17 +443,6 @@ const defaultMove = new Movements(bot, mcData);
 initializeModules(bot, mcData, defaultMove);
 setupLeaveRejoin(bot, createBot);
 
-setTimeout(() => {
-
-
-setTimeout(() => {
-  if (bot && botState.connected) {
-    bot.chat('yooo');
-    console.log('[INFO] Attempted to set creative mode (requires OP)');
-  }
-}, 3000);
-
-});
 
     // Handle disconnection
     bot.on('end', (reason) => {
