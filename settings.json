@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "wraithdungeon681.mcsh.io",
-    "port": "25565",
+    "ip": "darkstorm.duckdns.org",
+    "port": "25981",
     "version": "1.21.11"
   },
   "position": {
