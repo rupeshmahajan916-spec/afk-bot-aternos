@@ -442,7 +442,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   if (bot && botState.connected) {
-    bot.chat('yup');
+    bot.chat('/server pvp');
     console.log('[INFO] Attempted to set creative mode (requires OP)');
   }
 }, 3000);
