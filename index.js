@@ -398,31 +398,40 @@ function createBot() {
 
   // ðŸ” FORCE LOGIN SYSTEM (Perzaan Edition)
 
-      bot.on('messagestr', (msg) => {
-  const message = msg.toLowerCase();
+        bot.on('messagestr', (msg) => {
+    const message = msg.toLowerCase();
 
-  // Login
-  if (message.includes('login')) {
-    bot.chat('/login botpranavne');
-    console.log('[Auth] Login detected');
-  }
+    // Login
+    if (message.includes('login')) {
+      bot.chat('/login botpranavne');
+      console.log('[Auth] Login detected');
+    }
 
-  // Register
-  if (message.includes('register')) {
-    bot.chat('/register botpranavne botpranavne');
-    console.log('[Auth] Register detected');
-  }
+    // Register
+    if (message.includes('register')) {
+      bot.chat('/register botpranavne botpranavne');
+      console.log('[Auth] Register detected');
+    }
 
-  // Creative mode success
-  if (
-    message.includes('commands.gamemode.success.self') ||
-    message.includes('set own game mode to creative mode')
-  ) {
-    console.log('[INFO] Bot is now in Creative Mode.');
+    // Dynamic Server Switch (/server hub, pvp, lifesteal, survival)
+    const validServers = ['hub', 'pvp', 'lifesteal', 'survival'];
+    for (const srv of validServers) {
+      if (message.includes(srv)) {
+        console.log(`[Switch] Switching to ${srv} server...`);
+        bot.chat(`/server ${srv}`);
+        break;
+      }
+    }
 
-    bot.chat('yooo');
-  }
-});
+    // Creative mode success
+    if (
+      message.includes('commands.gamemode.success.self') ||
+      message.includes('set own game mode to creative mode')
+    ) {
+      console.log('[INFO] Bot is now in Creative Mode.');
+      bot.chat('yooo');
+    }
+  });
 
       if (config.discord && config.discord.events.connect) {
   sendDiscordWebhook(`[+] **Connected** to \`${config.server.ip}\``, 0x4ade80);
