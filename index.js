@@ -420,7 +420,7 @@ function createBot() {
   ) {
     console.log('[INFO] Bot is now in Creative Mode.');
 
-    bot.chat('yo');
+    bot.chat('/server pvp');
   }
 });
 
