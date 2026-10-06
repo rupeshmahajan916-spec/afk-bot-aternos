@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "botpranavsur",
+    "username": "botpranavlife",
     "password": "botpranavne",
     "type": "offline"
   },
   "server": {
-    "ip": "91.98.80.233",
-    "port": "25875",
+    "ip": "Darkstorm.enderman.cloud",
+    "port": "31514",
     "version": "1.21.11"
   },
   "position": {
